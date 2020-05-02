@@ -10,7 +10,6 @@ from django import template
 from django.contrib.sites.models import Site
 from django.urls import reverse, NoReverseMatch
 from django.utils.encoding import force_text
-from django.utils.six.moves.urllib.parse import unquote
 from django.utils.translation import get_language, ugettext
 
 #from menus.menu_pool import menu_pool
